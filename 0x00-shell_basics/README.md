@@ -19,3 +19,4 @@ file /tmp/iamafile -script that prints the type of the file named iamafile. The
 ln -s /bin/ls __ls__ -Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory
 cp *.html . -Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 cp *.html .. -Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+mv [A-Z]* /tmp/u -script that moves all files beginning with an uppercase letter to the directory /tmp/u
