@@ -6,3 +6,4 @@ ls -l -a -Display current directory contents, including hidden files (starting w
 ls -na -Display current directory contents in digits
 mkdir/tmp/my_first_directory -makes directory in /tmp
 mkdir/tmp/my_first_directory -makes directory in /tmp
+mv /tmp/betty /tmp/my_first_directory -Move the file betty from /tmp/ to /tmp/my_first_directory
