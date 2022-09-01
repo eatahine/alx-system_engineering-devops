@@ -5,3 +5,4 @@ ls -l- Display current directory contents in a long format
 ls -l -a -Display current directory contents, including hidden files (starting with .). Use the long format
 ls -na -Display current directory contents in digits
 mkdir/tmp/my_first_directory -makes directory in /tmp
+mkdir/tmp/my_first_directory -makes directory in /tmp
