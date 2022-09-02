@@ -6,3 +6,6 @@ sudo chown betty hello -script that changes the owner of the file hello to the u
 touch hello -script that creates an empty file called hello
 chmod u+x - script that adds execute permission to the owner of the file hello
 chmod ug+x o+r hello -script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+chmod +114 hello -cript that adds execute permission to the owner and
+
+ the group owner, and read permission to other users, to the file hello
