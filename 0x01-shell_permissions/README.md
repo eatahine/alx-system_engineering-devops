@@ -33,3 +33,6 @@ e group owner to staff for all the files and directories in the working director
 chown vincent:staff . -script that changes the owner to vincent and th
 
 e group owner to staff for all the files and directories in the working directory
+chown -hR vincent:staff . -script that changes the owner to vincent and th
+
+e group owner to staff for all the files and directories in the working directory
