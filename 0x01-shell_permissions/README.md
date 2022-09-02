@@ -25,3 +25,4 @@ chgrp school hello -script that changes the group owner to school for the file h
 mkdir -m 751 my_dir - script that creates a directory called my_dir wit
 
 h permissions 751 in the working directory
+chmod -R +X . -script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
