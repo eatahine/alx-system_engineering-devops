@@ -9,3 +9,4 @@ chmod ug+x o+r hello -script that adds execute permission to the owner and the g
 chmod +114 hello -cript that adds execute permission to the owner and
 
  the group owner, and read permission to other users, to the file hello
+chmod +x hello -script that adds execution permission to the owner, the group owner and the other users, to the file hello
