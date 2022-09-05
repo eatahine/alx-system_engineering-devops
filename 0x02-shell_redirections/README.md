@@ -7,3 +7,4 @@ tail -n 10 /etc/passwd -Display the last 10 lines of /etc/passwd
 head -n 10 /etc/passwd -Display the first 10 lines of /etc/passwd
 grep -n 3 iacta -script that displays the third line of the file iacta
 ls -la > ls_cwd_content -script that writes into the file ls_cwd_content the result of the command ls -la
+rm -R *.js -script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
