@@ -6,3 +6,4 @@ cat /etc/passwd /etc/hosts -Display the content of /etc/passwd and /etc/hosts
 tail -n 10 /etc/passwd -Display the last 10 lines of /etc/passwd
 head -n 10 /etc/passwd -Display the first 10 lines of /etc/passwd
 grep -n 3 iacta -script that displays the third line of the file iacta
+ls -la > ls_cwd_content -script that writes into the file ls_cwd_content the result of the command ls -la
