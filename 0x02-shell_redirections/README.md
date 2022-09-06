@@ -22,3 +22,4 @@ tr "Ac" "Ze" -Replace all characters A and c from input to Z and e respectively
 tr -d [cC] -script that removes all letters c and C from input
 rev -Write a script that reverse its input
 cut -d":" -f 1,6 /etc/passwd | sort -script that displays all users and their home directories, sorted by users
+ls -Rla *.gif -Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories
