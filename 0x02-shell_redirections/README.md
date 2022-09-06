@@ -12,3 +12,4 @@ tail -1 iacta >> iacta -script that duplicates the last line of the file iacta
 find ./* -type d -print | wc -l -script that counts the number of directories and sub-directories in the current directory
 ls -t | head -script that displays the 10 newest files in the current directory
 sort | uniq - script that takes a list of words as input and prints only words that appear exactly once
+sort | uniq -u  -script that takes a list of words as input and prints only words that appear exactly once
