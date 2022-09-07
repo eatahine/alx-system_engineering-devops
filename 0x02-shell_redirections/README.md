@@ -26,3 +26,4 @@ ls -Rla *.gif -Write a script that lists all the files with a .gif extension in 
 find . -type f -name “*.gif” | rev | cut -d’/’ -f1 | cut -d’.’ -f2,3 | 
 
 rev | sort -Vf -script that lists all the files with a .gif extension in the current directory and all its sub-directories
+100-empty_casks -command that finds all empty files and directories in the current directory and all sub-directories
