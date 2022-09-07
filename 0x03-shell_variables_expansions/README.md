@@ -11,3 +11,4 @@ echo {a..z}{a..z} | tr   n | grep -v "oo" -script that prints all possible combi
 printf %xn $DECIMAL -script that converts a number from base 10 to base 16
 echo $((bestchol#($WATER + $STIR))) -shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 102-odd -script that prints every other line from the input, starting with the first line
+12-combinations -script that prints all possible combinations of two letters, except oo
